@@ -5213,7 +5213,7 @@ body {
     justify-self: end;
   }
 }
-.profile-form__subtitle {
+.subtitle-form {
   position: absolute;
   top: -8px;
   left: 50%;
@@ -5226,7 +5226,7 @@ body {
   color: #1d2e5b;
   text-transform: uppercase;
 }
-.profile-form__subtitle::before {
+.subtitle-form::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -5238,7 +5238,7 @@ body {
 }
 
 @media (min-width: 768px) {
-  .profile-form__subtitle {
+  .subtitle-form {
     top: unset;
     bottom: -11px;
     font-weight: 500;
@@ -5246,7 +5246,7 @@ body {
     line-height: 1;
     letter-spacing: 0.08em;
   }
-  .profile-form__subtitle::before {
+  .subtitle-form::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -5258,10 +5258,10 @@ body {
   }
 }
 @media (min-width: 1440px) {
-  .profile-form__subtitle {
+  .subtitle-form {
     bottom: -8px;
   }
-  .profile-form__subtitle--hashtags {
+  .subtitle-form--hashtags {
     left: 9%;
   }
 }
@@ -6233,7 +6233,8 @@ body {
 .calendar-week__day--week-end {
   color: #ff5c23;
 }
-.calendar-week__day--desk {
+
+.calendar-week__day-desk {
   display: none;
 }
 
@@ -6242,10 +6243,12 @@ body {
     font-size: 18px;
     line-height: 1;
   }
-  .calendar-week__day--desk {
+
+  .calendar-week__day-desk {
     display: block;
   }
-  .calendar-week__day--mobile {
+
+  .calendar-week__day-mobile {
     display: none;
   }
 }
