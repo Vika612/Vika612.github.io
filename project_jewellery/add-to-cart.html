@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Jewellery, jewellery shop, jewellery making">
+  <title>Jewellery</title>
+  <link rel="preload" href="fonts/poppins-v15-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/poppins-v15-latin-500.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/cormorant-garamond-v9-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <main>
+    <div class="modal modal--cart modal--static cart">
+      <div class="cart__wrapper">
+        <button class="cart__close" type="button" aria-label="close"></button>
+        <h2 class="visually-hidden">Cart</h2>
+        <p>The item was added to your cart</p>
+        <div class="cart__content">
+          <div class="cart__photo">
+            <picture>
+              <!--1x: 84x79; 2x: 168x158-->
+              <source type="image/webp" srcset="img/card/necklace-detail-cart@1x.webp 1x, img/card/necklace-detail-cart@2x.webp 2x">
+              <img src="img/card/necklace-detail-cart@1x.jpg" srcset="img/card/necklace-detail-cart@2x.jpg 2x" width="84" height="79" alt="gold necklace">
+            </picture>
+          </div>
+          <div class="cart__description">
+            <div class="cart__info">
+              <h3>Gold Necklace </h3>
+              <span>$ 115</span>
+            </div>
+            <div class="cart__counter">
+              <button class="cart__button cart__button--increase" type="button" aria-label="increase"></button>
+              <input type="text" name="number" id="number" value="1" readonly="">
+              <button class="cart__button cart__button--decrease" type="button" aria-label="decrease"></button>
+            </div>
+          </div>
+        </div>
+        <div class="cart__output">
+          <p>You have 1 item in the cart</p>
+          <b>Cart subtotal: $ 115</b>
+        </div>
+        <div class="cart__links">
+          <a class="cart__link cart__link--continue" href="catalog.html">Continue shopping</a>
+          <a class="cart__link cart__link--checkout" href="card.html">Checkout</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
