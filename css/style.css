@@ -26,9 +26,27 @@ body {
 }
 
 h1,
+h2,
 p {
   margin: 0;
   padding: 0;
+}
+
+.link {
+  font-family: "Kurale", serif;
+  font-size: 18px;
+  line-height: 1;
+  color: #1f1c1c;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: #dfa233;
+}
+
+.link:active {
+  opacity: 0.7;
 }
 
 .contacts {
@@ -42,11 +60,7 @@ p {
 
 .contacts a {
   padding: 10px;
-  font-family: "Kurale", serif;
-  font-size: 18px;
-  line-height: 1;
   color: #ffffff;
-  text-decoration: none;
 }
 
 .personal-date {
@@ -59,13 +73,15 @@ p {
   font-size: 33px;
 }
 
-.skills {
+.skills,
+.education {
   margin-bottom: 30px;
   padding: 10px;
   box-shadow: 1px 1px 3px #ccc5c5;
 }
 
-.skills h2 {
+.skills h2,
+.education h2 {
   margin: 0 0 15px 0;
   font-size: 23px;
 }
@@ -106,14 +122,6 @@ p {
   padding-bottom: 20px;
 }
 
-.projects a {
-  font-family: "Kurale", serif;
-  font-size: 18px;
-  line-height: 1;
-  color: #1f1c1c;
-  text-decoration: none;
-}
-
 .projects img {
   display: block;
 }
@@ -122,17 +130,6 @@ p {
   position: absolute;
   bottom: 0;
   left: 0;
-}
-
-.projects a:hover,
-.projects a:focus,
-.contacts a:hover,
-.contacts a:focus {
-  color: #dfa233;
-}
-
-.projects a:active {
-  opacity: 0.7;
 }
 
 footer {
