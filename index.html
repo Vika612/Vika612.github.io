@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <title>Резюме-портфолио</title>
+  <title>CV portfolio</title>
 </head>
 <body>
   <header>
@@ -17,68 +17,71 @@
   </header>
   <main class="main">
     <div class="personal-date">
-      <h1>Виктория Домовец</h1>
-      <p>фронтенд-разработчик</p>
+      <h1 class="lng-name">Виктория Домовец</h1>
+      <p class="lng-prof">фронтенд-разработчик</p>
     </div>
-    <div class="skills">
-      <h2>Профессиональные навыки</h2>
+    <section class="skills">
+      <h2 class="lng-skills">Профессиональные навыки</h2>
       <ul class="skills__list">
         <li>HTML5</li>
         <li>CSS3</li>
-        <li>JavaScript (базовый уровень)</li>
-        <li>методология BEM</li>
-        <li>анимации на CSS</li>
-        <li>препроцессоры LESS, SASS</li>
-        <li>шаблонизатор PUG</li>
-        <li>инструмент автоматизации Gulp</li>
-        <li>контроль версий Git</li>
-        <li>адаптивная и кроссбраузерная верстка</li>
-        <li>ручное тестирование</li>
+        <li>JavaScript (basic)</li>
+        <li>BEM</li>
+        <li>animation CSS</li>
+        <li>Sass</li>
+        <li>PUG</li>
+        <li>Git</li>
+        <li>Gulp</li>
+        <li class="lng-layout">адаптивная и кроссбраузерная верстка</li>
+        <li class="lng-test">ручное тестирование</li>
+      </ul>
+    </section>
+    <section class="education">
+      <h2 class="lng-education">Профильное образование</h2>
+      <p class="lng-education-value">HTML Academy г.Санкт-Петербург: онлайн курс по профессии "Фронтенд-разработчик"; 2021-2022гг.</p>
+      <a class="link lng-education-link" href="https://htmlacademy.ru/profile/vika612" target="blanc">Ссылка на профиль в академии</a>
+    </section>
+    <section class="projects">
+      <h2 class="lng-projects">Проекты</h2>
+      <ul class="projects__list">
+        <li>
+          <a class="link" href="project_pognali/index.html" target="blanc"><span>"Погнали"</span>
+            <img src="img/pognali.png" width="250" height="150" alt="ссылка на проект 'Погнали'">
+          </a>
+        </li>
+        <li>
+          <a class="link" href="project_smart-device/index.html" target="blanc"><span>"Smart-device"</span>
+            <img src="img/smart-device.png" width="250" height="150" alt="ссылка на проект 'Smart-device'">
+          </a>
+        </li>
+        <li>
+          <a class="link" href="project_jewellery/index.html" target="blanc"><span>"Jewellery"</span>
+            <img src="img/jewellery.png" width="250" height="150" alt="ссылка на проект 'Jewellery'">
+          </a>
+        </li>  
+        <li>
+          <a class="link" href="project_device/index.html" target="blanc"><span>"Device" (desktop)</span>
+            <img src="img/device.png" width="250" height="150" alt="ссылка на проект 'Device'">
+          </a>
+        </li>  
+      </ul>
+    </section>
+    <div class="skills">
+      <h2 class="lng-soft">Личные качества</h2>
+      <ul class="skills__list">
+        <li class="lng-soft1">ответственность</li>
+        <li class="lng-soft2">внимательность</li>
+        <li class="lng-soft3">самостоятельность</li>
+        <li class="lng-soft4">критичность ума</li>
+        <li class="lng-soft5">обучаемость</li>
+        <li class="lng-soft6">самоирония</li>
       </ul>
     </div>
-    <div class="education">
-      <h2>Профильное образование</h2>
-      <p>HTML Academy г.Санкт-Петербург: онлайн курс по профессии "Фронтенд-разработчик"; 2021-2022гг.</p>
-      <a class="link" href="https://htmlacademy.ru/profile/vika612" target="blanc">Ссылка на профиль в академии</a>
-    </div>
-    <ul class="projects">
-      <li>
-        <a class="link" href="project_pognali/index.html" target="blanc"><span>Проект "Погнали"</span>
-          <img src="img/pognali.png" width="250" height="150" alt="ссылка на проект 'Погнали'">
-        </a>
-      </li>
-      <li>
-        <a class="link" href="project_smart-device/index.html" target="blanc"><span>Проект "Smart-device"</span>
-          <img src="img/smart-device.png" width="250" height="150" alt="ссылка на проект 'Smart-device'">
-        </a>
-      </li>
-      <li>
-        <a class="link" href="project_jewellery/index.html" target="blanc"><span>Проект "Jewellery"</span>
-          <img src="img/jewellery.png" width="250" height="150" alt="ссылка на проект 'Jewellery'">
-        </a>
-      </li>  
-      <li>
-        <a class="link" href="project_device/index.html" target="blanc"><span>Проект "Device" (desktop)</span>
-          <img src="img/device.png" width="250" height="150" alt="ссылка на проект 'Device'">
-        </a>
-      </li>  
-    </ul>
     <div class="skills">
-      <h2>Личные качества</h2>
+      <h2 class="lng-lang">Иностранные языки</h2>
       <ul class="skills__list">
-        <li>ответственность</li>
-        <li>внимательность</li>
-        <li>самостоятельность</li>
-        <li>критичность ума</li>
-        <li>обучаемость</li>
-        <li>самоирония</li>
-      </ul>
-    </div>
-    <div class="skills">
-      <h2>Иностранные языки</h2>
-      <ul class="skills__list">
-        <li>английский A2</li>
-        <li>итальянский B2</li>
+        <li class="lng-en">английский A2</li>
+        <li class="lng-it">итальянский B2</li>
       </ul>
     </div>
   </main>

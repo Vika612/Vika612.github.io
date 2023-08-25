@@ -81,7 +81,8 @@ p {
 }
 
 .skills h2,
-.education h2 {
+.education h2,
+.projects h2 {
   margin: 0 0 15px 0;
   font-size: 23px;
 }
@@ -107,22 +108,34 @@ p {
 .projects {
   margin: 0 0 30px 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  list-style: none;
   box-shadow: 1px 1px 3px #ccc5c5;
 }
 
-.projects li {
+.projects__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.projects__list li {
   position: relative;
   max-width: 250px;
-  margin: 15px;
-  padding-bottom: 20px;
+  width: 100%;
+  margin: 0 30px 30px 0;
+  padding-bottom: 30px;
+}
+
+.projects__list li:last-child {
+  margin-right: 0;
 }
 
 .projects img {
+  width: 100%;
+  object-fit: cover;
   display: block;
 }
 
