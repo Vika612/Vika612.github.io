@@ -48,22 +48,18 @@ const langArr = {
     "ru": "Личные качества",
   },
   "soft1": {
-    "en": "Soft skills",
-    "ru": "Личные качества",
-  },
-  "soft2": {
     "en": "responsibilty",
     "ru": "ответственность",
   },
-  "soft3": {
+  "soft2": {
     "en": "attention to details",
     "ru": "внимательность",
   },
-  "soft4": {
+  "soft3": {
     "en": "problem-solving skill",
     "ru": "самостоятельность",
   },
-  "soft": {
+  "soft4": {
     "en": "critical thinking",
     "ru": "критичность ума",
   },
