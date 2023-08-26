@@ -49,6 +49,10 @@ p {
   opacity: 0.7;
 }
 
+.lng-education-link {
+  font-style: italic;
+}
+
 .contacts {
   padding: 15px;
   display: flex;

@@ -12,8 +12,16 @@ const langArr = {
     "ru": "Профессиональные навыки",
   },
   "layout": {
-    "en": "responsys development",
+    "en": "responsive / adaptive / cross-brouser development",
     "ru": "адаптивная и кроссбраузерная верстка",
+  },
+  "accessibility": {
+    "en": "accessibility",
+    "ru": "доступность",
+  },
+  "optimization": {
+    "en": "optimization",
+    "ru": "оптимизация",
   },
   "test": {
     "en": "manual testing",
