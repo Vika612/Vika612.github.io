@@ -32,12 +32,19 @@ p {
   padding: 0;
 }
 
+h2 {
+  margin: 0 0 15px 0;
+  font-size: 23px;
+}
+
 .link {
   font-family: "Kurale", serif;
   font-size: 18px;
   line-height: 1;
   color: #1f1c1c;
   text-decoration: none;
+  outline: none;
+  transition: color 0.5s ease;
 }
 
 .link:hover,
@@ -68,13 +75,20 @@ p {
 }
 
 .change-lang {
-  width: 70px;
+  width: 50px;
   font-family: "Kurale", serif;
   font-size: 16px;
   line-height: 1;
   background-color: #000000;
   color: #ffffff;
   border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.change-lang:hover,
+.change-lang:focus {
+  color: #dfa233;
 }
 
 .personal-date {
@@ -88,17 +102,11 @@ p {
 }
 
 .skills,
+.work,
 .education {
   margin-bottom: 30px;
   padding: 10px;
   box-shadow: 1px 1px 3px #ccc5c5;
-}
-
-.skills h2,
-.education h2,
-.projects h2 {
-  margin: 0 0 15px 0;
-  font-size: 23px;
 }
 
 .skills__list {

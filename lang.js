@@ -27,6 +27,42 @@ const langArr = {
     "en": "manual testing",
     "ru": "ручное тестирование",
   },
+  "work": {
+    "en": "Work experience",
+    "ru": "Опыт работы",
+  },
+  "work-title": {
+    "en": "Liga A development company - internship (February 2022 - currently). Saint-Petersburg",
+    "ru": "Лига А. - стажёр (февраль 2022 - настоящее время). Санкт-Петербург.",
+  },
+  "work-text": {
+    "en": "Remote internship. Commercial projects Implementation according to the company’s quality criteria and customer requirements. Work in a team of developers, managers and testers.",
+    "ru": "Удаленная стажировка. Реализация коммерческих проектов по критериям качества компании и ТЗ клиентов. Работа в команде разработчиков, менеджеров, тестировщиков.",
+  },
+  "work-note": {
+    "en": "Technologies and tools used:",
+    "ru": "Используемые технологии и инструменты:",
+  },
+  "work-pl": {
+    "en": "plugins and libraries",
+    "ru": "различные плагины и библиотеки",
+  },
+  "work1": {
+    "en": "Compliance with company quality criteria and customer requirements (technical task)",
+    "ru": "Соблюдение критериев качества компании и ТЗ клиента",
+  },
+  "work2": {
+    "en": "Support for different versions of browsers and operating systems",
+    "ru": "Поддержка различных версий браузеров и операционных систем",
+  },
+  "work3": {
+    "en": "Self-testing",
+    "ru": "Самостоятельное тестирование своей работы",
+  },
+  "work4": {
+    "en": "Creating interactive blocks (sliders, tabs, filter and sort, form, popup, animation)",
+    "ru": "Создание интерактивных блоков (слайдеры, табы, фильтрация и сортировка, модальные окна и формы с валидацией и анимацией)",
+  },
   "education": {
     "en": "Education",
     "ru": "Профильное образование",
@@ -41,7 +77,7 @@ const langArr = {
   },
   "projects": {
     "en": "Projects",
-    "ru": "Проекты",
+    "ru": "Учебные проекты",
   },
   "soft": {
     "en": "Soft skills",
