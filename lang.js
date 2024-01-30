@@ -32,8 +32,8 @@ const langArr = {
     "ru": "Опыт работы",
   },
   "work-title": {
-    "en": "Liga A development company - internship (February 2022 - currently). Saint-Petersburg",
-    "ru": "Лига А. - стажёр (февраль 2022 - настоящее время). Санкт-Петербург.",
+    "en": "Liga A development company - internship (February 2022 - December 2023). Saint-Petersburg",
+    "ru": "Лига А. - стажёр (февраль 2022 - декабрь 2023). Санкт-Петербург.",
   },
   "work-text": {
     "en": "Remote internship. Commercial projects Implementation according to the company’s quality criteria and customer requirements. Work in a team of developers, managers and testers.",
